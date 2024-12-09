@@ -1,0 +1,23 @@
+{
+    "name": "vs/yii2-auth",
+    "description": "Module auth for Yii2",
+    "keywords": ["auth", "login", "logout", "registration", "reset-password"],
+    "type": "yii2-extension",
+    "version": "0.7.1",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "vs"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "yiisoft/yii2": "~2.0.13",
+        "himiklab/yii2-recaptcha-widget" : "1.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "vs\\yii2\\auth\\": "src/"
+        }
+    }
+}
